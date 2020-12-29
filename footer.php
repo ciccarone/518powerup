@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        518 Powerup was created with <3 from<span><a href="https://busybee.marketing/">Busybee Marketing</span></a>
+        518 Powerup was created with <3 from<span><a href="https://busybee.marketing/">Busybee Marketing</a> and <a href="https://tonyciccarone.com/">Tony Ciccarone</a></span>
       </div>
     </div>
   </div>

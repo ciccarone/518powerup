@@ -167,7 +167,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row">
       <div class="col-md-12">
         <p class="h1 text-center text-dark">The Story</p>
-        <p class="lead">518 Powerup came about after seeing a Nextdoor post from Amy, a Capital Region nurse working on the trauma surgery floor. She expressed how her trauma unit was in desperate need for extra chargers, however due to COVID restrictions, visitors were generally not allowed to come in and bring accessories.</p>
+        <p class="lead">518 Powerup came about after seeing posts from a few Capital Region nurses working in trauma units. They expressed how within the trauma unit there is a desperate need for extra chargers. Due to COVID restrictions, visitors are not allowed to bring in any personal items.</p>
 
         <p class="lead">Oftentimes, our cell phones are the only way we can keep in touch with loved ones. A small gesture such as donating a charger can make a huge difference to someone needing to connect to their family and friends.  This need inspired my husband and I to create 518 Powerup by using our skills, marketing and web development, to be of service to the community.</p>
       </div>

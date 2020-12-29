@@ -45,7 +45,15 @@ $container = get_theme_mod( 'understrap_container_type' );
   <meta property="twitter:title" content="518 Powerup - Donate used or new chargers to hospitals in the 518 Capital Region">
   <meta property="twitter:description" content="Hospital patients in Capital Region have an urgent need for phone chargers and due to COVID restrictions, visitors are generally not allowed to bring those types of supplies to their loved ones.">
   <meta property="twitter:image" content="https://powerup518.wpengine.com/wp-content/themes/understrap-child-master/imgs/donate-phone-chargers-to-capital-region-hospitals.jpg">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1QRL0YM3Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-N1QRL0YM3Q');
+  </script>
 	<?php wp_head(); ?>
 </head>
 
