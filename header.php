@@ -18,6 +18,34 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/understrap-child-master/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/understrap-child-master/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/understrap-child-master/favicon-16x16.png">
+  <link rel="manifest" href="/wp-content/themes/understrap-child-master/site.webmanifest">
+  <link rel="mask-icon" href="/wp-content/themes/understrap-child-master/safari-pinned-tab.svg" color="#518518">
+  <meta name="msapplication-TileColor" content="#518518">
+  <meta name="theme-color" content="#518518">
+
+
+  <!-- Primary Meta Tags -->
+  <title>518 Powerup - Donate used or new chargers to hospitals in the 518 Capital Region</title>
+  <meta name="title" content="518 Powerup - Donate used or new chargers to hospitals in the 518 Capital Region">
+  <meta name="description" content="Hospital patients in Capital Region have an urgent need for phone chargers and due to COVID restrictions, visitors are generally not allowed to bring those types of supplies to their loved ones.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://518powerup.com/">
+  <meta property="og:title" content="518 Powerup - Donate used or new chargers to hospitals in the 518 Capital Region">
+  <meta property="og:description" content="Hospital patients in Capital Region have an urgent need for phone chargers and due to COVID restrictions, visitors are generally not allowed to bring those types of supplies to their loved ones.">
+  <meta property="og:image" content="https://powerup518.wpengine.com/wp-content/themes/understrap-child-master/imgs/donate-phone-chargers-to-capital-region-hospitals.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://518powerup.com/">
+  <meta property="twitter:title" content="518 Powerup - Donate used or new chargers to hospitals in the 518 Capital Region">
+  <meta property="twitter:description" content="Hospital patients in Capital Region have an urgent need for phone chargers and due to COVID restrictions, visitors are generally not allowed to bring those types of supplies to their loved ones.">
+  <meta property="twitter:image" content="https://powerup518.wpengine.com/wp-content/themes/understrap-child-master/imgs/donate-phone-chargers-to-capital-region-hospitals.jpg">
+
 	<?php wp_head(); ?>
 </head>
 
@@ -52,9 +80,9 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="navbar__nav">
               <ul>
                 <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#" class="btn btn-primary">About Us</a></li>
+                <li><a href="#story">The Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="#" class="btn btn-primary">About Us</a></li> -->
               </ul>
             </div>
           </div>

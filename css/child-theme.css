@@ -11677,8 +11677,11 @@ figure.woocommerce-product-gallery__wrapper {
       .navbar__nav li a:not(.btn) {
         padding: 2em;
         position: relative;
-        top: 8px;
+        top: 5px;
         color: #404040; }
+        @media (max-width: 1300px) {
+          .navbar__nav li a:not(.btn) {
+            padding: .6em; } }
       .navbar__nav li a.btn {
         margin-left: 1.5em; }
 
@@ -11690,18 +11693,18 @@ figure.woocommerce-product-gallery__wrapper {
   position: absolute;
   display: none; }
 
-.navbar-collapse.show .navbar-nav {
-  width: 50%;
-  margin: 0em auto 0 auto;
-  text-align: center; }
+.navbar-nav {
+  display: none; }
+
+@media (max-width: 1024px) {
+  .navbar__nav {
+    display: none; } }
 
 .hero {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.76))), url("/wp-content/themes/understrap-child-master/imgs/donate-phone-chargers-to-capital-region-hospitals.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.76)), url("/wp-content/themes/understrap-child-master/imgs/donate-phone-chargers-to-capital-region-hospitals.jpg");
   background-size: cover !important;
   background-position: center !important;
-  background-attachment: fixed;
-  min-height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11712,6 +11715,13 @@ figure.woocommerce-product-gallery__wrapper {
       -ms-flex-pack: center;
           justify-content: center;
   color: white; }
+  @media (min-width: 768px) {
+    .hero {
+      min-height: 70vh;
+      background-attachment: fixed; } }
+  @media (max-width: 768px) {
+    .hero {
+      padding: 6em 1em; } }
   .hero__inner {
     max-width: 600px;
     margin: 0 auto;
@@ -11720,6 +11730,19 @@ figure.woocommerce-product-gallery__wrapper {
     text-align: center; }
     .hero__inner p {
       margin-bottom: 0; }
+
+.story {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.76))), url("/wp-content/themes/understrap-child-master/imgs/help-capital-region-518-hospitals.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.76)), url("/wp-content/themes/understrap-child-master/imgs/help-capital-region-518-hospitals.jpg");
+  background-size: cover !important;
+  background-position: top !important; }
+  @media (min-width: 768px) {
+    .story {
+      background-attachment: fixed; } }
+  @media (max-width: 768px) {
+    .story {
+      padding: 6em 1em;
+      background: none; } }
 
 .blocks {
   display: -webkit-box;
@@ -11742,16 +11765,16 @@ figure.woocommerce-product-gallery__wrapper {
       margin-top: .5em; }
     .blocks .block li {
       list-style: none; }
-      .blocks .block li:before {
-        content: '-';
-        position: absolute;
-        margin-left: -20px; }
+      @media (max-width: 768px) {
+        .blocks .block li {
+          text-align: center; } }
+      @media (min-width: 768px) {
+        .blocks .block li:before {
+          content: '-';
+          position: absolute;
+          margin-left: -20px; } }
 
 .hospital {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("/wp-content/themes/understrap-child-master/imgs/saratoga-hospital.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/wp-content/themes/understrap-child-master/imgs/saratoga-hospital.jpg");
-  background-size: cover !important;
-  background-position: center !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11765,6 +11788,25 @@ figure.woocommerce-product-gallery__wrapper {
   @media (max-width: 768px) {
     .hospital {
       min-height: 50vh; } }
+  .hospital__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media (min-width: 768px) {
+      .hospital__icon {
+        margin-left: -25px; } }
+    @media (max-width: 768px) {
+      .hospital__icon {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    @media (min-width: 768px) {
+      .hospital__icon i {
+        margin-right: 16px; } }
   .hospital__inner {
     max-width: 600px;
     margin: 0 auto;
@@ -11774,13 +11816,10 @@ figure.woocommerce-product-gallery__wrapper {
     .hospital__inner p {
       margin-bottom: 0; }
 
-.buckets {
-  padding-top: 12.5em; }
-
 .bucket {
   text-align: center;
   position: relative;
-  top: -176px; }
+  top: -55px; }
   .bucket__icon {
     min-height: 75px;
     margin-top: 50px;
@@ -11797,7 +11836,7 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     position: relative;
-    top: -50px; }
+    top: 27px; }
     @media (max-width: 768px) {
       .bucket__triangle--second {
         display: none; } }
@@ -11816,15 +11855,31 @@ figure.woocommerce-product-gallery__wrapper {
 
 .section {
   padding: 5em 0; }
+  @media (max-width: 768px) {
+    .section {
+      text-align: center; } }
+  @media (max-width: 768px) {
+    .section {
+      padding: 2em 0; } }
   .section__title {
     color: #404040; }
   .section.light {
-    background-color: #e6e6e6; }
+    background-color: rgba(230, 230, 230, 0.4); }
   .section.yellow {
     background-color: #f3dbbc; }
 
 .step {
   text-align: center; }
+  @media (max-width: 768px) {
+    .step {
+      margin-top: 3em; } }
+  .step__intro {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 1em !important; }
+    @media (max-width: 768px) {
+      .step__intro {
+        padding: 0 1em; } }
   .step__icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11835,13 +11890,19 @@ figure.woocommerce-product-gallery__wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    min-height: 125px;
-    margin-bottom: 16px; }
+    min-height: 125px; }
+    @media (max-width: 768px) {
+      .step__icon {
+        margin-bottom: 4px; } }
+    @media (min-width: 768px) {
+      .step__icon {
+        margin-bottom: 16px; } }
     .step__icon img {
       max-height: 125px;
       max-width: 125px; }
-    .step__icon:not(.animate__zoomIn) {
-      opacity: 0; }
+    @media (min-width: 768px) {
+      .step__icon:not(.animate__zoomIn) {
+        opacity: 0; } }
   .step__text {
     max-width: 200px;
     margin: 0 auto; }
@@ -11884,11 +11945,13 @@ figure.woocommerce-product-gallery__wrapper {
     .wpcf7 .input__holder {
       margin-bottom: .5em; } }
   .wpcf7 input[type="submit"] {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    float: right;
     margin-top: 16px; }
+    @media (min-width: 768px) {
+      .wpcf7 input[type="submit"] {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        float: right; } }
 
 .battery2 > [class*="fa-battery"] {
   -webkit-animation: showhide 5s steps(1) infinite;
@@ -12130,6 +12193,31 @@ figure.woocommerce-product-gallery__wrapper {
     font-size: 7em !important;
     position: relative;
     top: -30px; } }
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */ }
+
+.footer {
+  background-color: #404040;
+  font-size: .8em;
+  padding: 1em;
+  color: white; }
+  .footer a {
+    color: white;
+    text-decoration: underline; }
+  @media (max-width: 768px) {
+    .footer span {
+      display: block;
+      margin-top: 6px; } }
+  @media (min-width: 768px) {
+    .footer span {
+      margin-left: 6px; } }
+
+.po-box {
+  line-height: 1.4em; }
 
 /*
 * Use existing Bootstrap 4 classes and

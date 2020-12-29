@@ -15,31 +15,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
-
-	<div class="<?php echo esc_attr( $container ); ?>">
-
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
-		</div><!-- row end -->
-
-	</div><!-- container end -->
-
-</div><!-- wrapper end -->
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        518 Powerup was created with <3 from<span><a href="https://busybee.marketing/">Busybee Marketing</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 
 </div><!-- #page we need this extra closing tag here -->
 <script src="https://kit.fontawesome.com/cff905c27f.js" crossorigin="anonymous"></script>

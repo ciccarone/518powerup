@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <section class="hero outer">
   <div class="hero__inner">
-    <p class="h2">Donate your used chargers to hospitals in the Capital Region</p>
+    <h2 class="h2">Donate Used Or New Chargers To Hospitals In the Capital Region</h2>
   </div>
 </section>
 
@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <p class="h3">About 518 Powerup</p>
           </div>
           <div class="bucket__text">
-            <p class="lead">Hospital patients in Capital Region have an urgent need for phone chargers and due to COVID restrictions, visitors are generally not allowed to bring those types of supplies to their loved ones. </p>
+            <p class="lead">Hospital patients in the Capital Region have an urgent need for phone chargers.  Due to COVID restrictions, these accessories are in very short supply and high demand.  Let's fix this problem!</p>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <p class="h3">What We Need</p>
           </div>
           <div class="bucket__text">
-            <p class="lead">Hospital patients are in need of the following items:  Apple, Samsung, Android, Mini-USB, Micro-USB, USB-A, USB-C, Wall Power Adapters, and Universal Multi-Charger Cables</p>
+            <p class="lead">518 Powerup is looking to collect the following types of phone charging accessories:  Apple, Samsung, Android, Mini-USB, Micro-USB, USB-A, USB-C, Universal, and Wall Power Adapters</p>
           </div>
         </div>
       </div>
@@ -77,12 +77,12 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </section>
 
-<section class="outer section yellow text-center" id="how-it-works">
+<section class="outer section light text-center" id="how-it-works">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="h1  ">How It Works</p>
-        <p class="lead mb-4">It's simple! Helping out is as easy as 1, 2, 3</p>
+        <p class="h2">How It Works</p>
+        <p class="lead mb-4 step__intro">A small gesture like donating a phone charging accessory can make a huge difference in someone's life.  It's simple!</p>
         <div class="row">
           <div class="col-md-4">
             <div class="step">
@@ -90,7 +90,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <img src="/wp-content/themes/understrap-child-master/imgs/bag.svg" alt="">
               </div>
               <div class="step__text">
-                <p class="h4">Put chargers in ziplock</p>
+                <p class="h5">Put chargers in ziplock</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <img src="/wp-content/themes/understrap-child-master/imgs/envelope-packed.svg" alt="">
               </div>
               <div class="step__text">
-                <p class="h4">Put ziplock in envelope</p>
+                <p class="h5">Put ziplock in envelope</p>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <img src="/wp-content/themes/understrap-child-master/imgs/send-envelope.svg" alt="">
               </div>
               <div class="step__text">
-                <p class="h4">Send envelope to address below</p>
+                <p class="h5">Send envelope to address below</p>
               </div>
             </div>
           </div>
@@ -118,10 +118,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <div class="row">
           <div class="col-md-4 mx-auto text-center lead mt-5">
-            <strong class="h5">518 Powerup</strong><br />
+            <p class="h4 text-primary po-box"><strong>518 Powerup</strong><br />
             PO Box 1372<br />
             1764 Route 9<br />
             Halfmoon, NY 12065-9998<br />
+          </p>
 
 
           </div>
@@ -131,34 +132,19 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </section>
 
-
-<section class="outer section contact position-relative">
-  <div class="contact__icon__holder">
-    <img src="/wp-content/themes/understrap-child-master/imgs/send-email.svg" alt="" class="contact__icon animate__animated">
-
-  </div>
-  <div class="container contact__form">
-    <div class="row">
-      <div class="col-md-4">
-        <p class="h2 section__title">Contact Us</p>
-        <p class="lead contact__text">Do you have a question or would like more infomation on the 518 Powerup initiative?  Send us a message and we'll get back to you as soon as possible</p>
-      </div>
-      <div class="col-md-8">
-        <?php echo do_shortcode('[contact-form-7 id="6" title="518 Powerup Contact Form"]') ?>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="outer blocks">
+<section class="outer blocks section">
   <div class="block hospital">
     <div class="hospital__inner">
-      <p class="h2">Capital Region hospitals that are in need of our help</p>
+
+      <img src="/wp-content/themes/understrap-child-master/imgs/saratoga-hospital.jpg" alt="">
     </div>
   </div>
   <div class="block">
     <div class="block__inner">
-      <i class="fas fa-3x fa-hospital-symbol text-primary"></i>
+      <div class="hospital__icon">
+        <i class="fas fa-3x fa-hospital-symbol text-primary"></i>
+        <p class="h5">Capital Region hospitals that are in need of our help</p>
+      </div>
       <ul class="lead">
         <li>St. Peter's Hospital Albany</li>
         <li>Albany Medical Center</li>
@@ -176,40 +162,45 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </section>
 
+<section class="story section" id="story">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="h1 text-center text-dark">The Story</p>
+        <p class="lead">518 Powerup came about after seeing a Nextdoor post from Amy, a Capital Region nurse working on the trauma surgery floor. She expressed how her trauma unit was in desperate need for extra chargers, however due to COVID restrictions, visitors were generally not allowed to come in and bring accessories.</p>
 
-<div class="wrapper" id="page-wrapper">
+        <p class="lead">Oftentimes, our cell phones are the only way we can keep in touch with loved ones. A small gesture such as donating a charger can make a huge difference to someone needing to connect to their family and friends.  This need inspired my husband and I to create 518 Powerup by using our skills, marketing and web development, to be of service to the community.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
+<section class="outer section contact position-relative" id="contact">
+  <div class="contact__icon__holder">
+    <img src="/wp-content/themes/understrap-child-master/imgs/send-email.svg" alt="" class="contact__icon animate__animated">
 
-			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
+  </div>
+  <div class="container contact__form">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="h2 section__title">Contact Us</p>
+        <p class="lead contact__text">Do you have a question or would like more infomation on the 518 Powerup initiative?  Send us a message and we'll get back to you as soon as possible</p>
+      </div>
+      <div class="col-md-8">
+        <?php echo do_shortcode('[contact-form-7 id="6" title="518 Powerup Contact Form"]') ?>
+      </div>
+    </div>
+  </div>
+</section>
 
-			<main class="site-main" id="main">
+<section class="outer map">
+  <div id="map"></div>
+</section>
 
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php get_template_part( 'loop-templates/content', 'page' ); ?>
-
-					<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-					?>
-
-				<?php endwhile; // end of the loop. ?>
-
-			</main><!-- #main -->
-
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
-		</div><!-- .row -->
-
-	</div><!-- #content -->
-
-</div><!-- #page-wrapper -->
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVinLyBqBtKeV8LthFW_I3w9VSYekAzaU&callback=initMap&libraries=&v=weekly"
+  defer
+></script>
 
 <?php get_footer(); ?>
