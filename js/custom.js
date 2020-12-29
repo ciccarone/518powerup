@@ -53,3 +53,36 @@ navigator.getBattery().then(function(battery) {
     updatecharge(battery);
   });
 });
+
+document.documentElement.style.setProperty('--animate-duration', '.5s');
+
+jQuery(document).ready(function( $ ) {
+
+  $(document).ready(function() {
+    // Check if element is scrolled into view
+    function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    // If element is scrolled into view, fade it in
+    $(window).scroll(function() {
+      $('.contact__icon').each(function() {
+        if (isScrolledIntoView(this) === true) {
+          $(this).addClass('show animate__fadeInLeft');
+        }
+      });
+      $('.step__icon').each(function() {
+        if (isScrolledIntoView(this) === true) {
+          // $(this).addClass('shows');
+          $(this).addClass('animate__zoomIn');
+        }
+      });
+    });
+  });
+
+});

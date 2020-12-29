@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-md-6 navbar__holder">
             <div class="navbar__nav">
               <ul>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#" class="btn btn-primary">About Us</a></li>
@@ -74,7 +74,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
